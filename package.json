@@ -21,6 +21,7 @@
   "dependencies": {
     "@fontsource/marcellus": "^5.2.8",
     "@fontsource/source-sans-3": "^5.2.9",
+    "@vercel/analytics": "^1.6.1",
     "solid-js": "^1.9.9"
   }
 }
