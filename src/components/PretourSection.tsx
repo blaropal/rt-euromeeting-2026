@@ -21,13 +21,11 @@ const PretourSection: Component = () => {
       id="pretour"
       class="relative min-h-screen py-10 md:py-40 px-6 bg-cover bg-center"
       style={{
-        "background-image": "url('/assets/snaefell.jpg')",
+        "background-image": "url('/src/assets/snaefell.jpg')",
       }}
     >
-      {/* Dark overlay */}
       <div class="absolute inset-0 bg-gradient-to-br from-ink-black/75 via-blue/70 to-gray-slate/80"></div>
 
-      {/* Content */}
       <div class="relative max-w-6xl mx-auto z-10">
         <div class="flex flex-col items-center mb-12 gap-4">
           <div class="inline-block bg-gold/20 border-2 border-gold px-6 py-2 rounded-full mb-2">
@@ -70,7 +68,6 @@ const PretourSection: Component = () => {
               </p>
             </div>
 
-            {/* Activity Highlights */}
             <div class="grid md:grid-cols-3 gap-6 mt-10 pt-8 border-t-2 border-blue/20">
               {activities.map((activity) => (
                 <div class="text-center">
@@ -87,7 +84,7 @@ const PretourSection: Component = () => {
         <div class="grid md:grid-cols-3 gap-6">
           <div class="relative rounded-xl overflow-hidden shadow-2xl group">
             <img
-              src="/assets/cave.webp"
+              src="/src/assets/cave.webp"
               alt="Cave exploring in Vatnshellir"
               class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
             />
@@ -97,7 +94,7 @@ const PretourSection: Component = () => {
           </div>
           <div class="relative rounded-xl overflow-hidden shadow-2xl group">
             <img
-              src="/assets/atv.webp"
+              src="/src/assets/atv.webp"
               alt="ATV adventure to Snæfellsjökull"
               class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
             />
@@ -107,7 +104,7 @@ const PretourSection: Component = () => {
           </div>
           <div class="relative rounded-xl overflow-hidden shadow-2xl group">
             <img
-              src="/assets/glacier.webp"
+              src="/src/assets/glacier.webp"
               alt="Snæfellsjökull glacier"
               class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
             />

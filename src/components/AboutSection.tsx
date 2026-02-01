@@ -122,7 +122,7 @@ const AboutSection: Component = () => {
 
           <div class="relative rounded-lg overflow-hidden shadow-2xl">
             <img
-              src="/assets/Bergid.jpg"
+              src="/src/assets/Bergid.jpg"
               alt="Icelandic landscape"
               class="w-full h-full object-cover"
             />

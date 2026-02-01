@@ -11,13 +11,11 @@ const HeroSection: Component = () => {
       id="hero"
       class="relative h-screen w-full flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat"
       style={{
-        "background-image": "url(/assets/Flag_min.png)",
+        "background-image": "url(/src/assets/Flag_min.png)",
       }}
     >
-      {/* Overlay for better text readability */}
       <div class="absolute inset-0 bg-black/40" />
 
-      {/* Content */}
       <div class="relative z-10 text-left text-white px-6 max-w-6xl">
         <h1
           class="text-5xl md:text-7xl font-bold mb-6 uppercase"
@@ -35,7 +33,6 @@ const HeroSection: Component = () => {
           <p>📅 Date: 10-14 June 2026</p>
         </div>
 
-        {/* Navigation Buttons */}
         <div class="flex flex-wrap gap-4 justify-left">
           <button
             onClick={() => scrollToSection("registration")}
