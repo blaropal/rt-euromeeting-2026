@@ -49,8 +49,15 @@ const AccommodationSection: Component = () => {
                 </div>
                 <div>
                   <p class="text-gray-700">
-                    To get a reduced rate send and email to [vantar email] and
-                    reference that it is "from Brother Johnas for EuroMeeting"
+                    To get a reduced rate send and email to{" "}
+                    <a
+                      href="mailto:Nupan.hotel@gmail.com"
+                      class="text-blue font-semibold hover:underline"
+                    >
+                      Nupan.hotel@gmail.com
+                    </a>{" "}
+                    and reference that it is "from Brother Johnas for
+                    EuroMeeting"
                   </p>
                 </div>
                 <hr class="my-6 border-t border-gray-200" />
@@ -61,6 +68,10 @@ const AccommodationSection: Component = () => {
                   >
                     Further information
                   </a>
+                  <p class="text-gray-700 mt-2 text-sm italic">
+                    *Images of the hotel and rooms will be updated after the
+                    10th of February.
+                  </p>
                 </div>
               </div>
               <div class="md:w-[40%] h-64 md:h-auto">
