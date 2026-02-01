@@ -1,4 +1,5 @@
 import type { Component } from "solid-js";
+import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
 import PretourSection from "./components/PretourSection";
@@ -13,6 +14,7 @@ inject();
 const App: Component = () => {
   return (
     <div class="min-h-screen">
+      <Navbar />
       <HeroSection />
       <AboutSection />
       <ScheduleSection />
