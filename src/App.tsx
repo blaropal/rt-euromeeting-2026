@@ -6,6 +6,7 @@ import ScheduleSection from "./components/ScheduleSection";
 import RegistrationSection from "./components/RegistrationSection";
 import FooterSection from "./components/FooterSection";
 import { inject } from "@vercel/analytics";
+import AccommodationSection from "./components/AccommodationSection";
 
 inject();
 
@@ -17,6 +18,7 @@ const App: Component = () => {
       <ScheduleSection />
       <PretourSection />
       <RegistrationSection />
+      <AccommodationSection />
       <FooterSection />
     </div>
   );
