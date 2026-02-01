@@ -57,7 +57,8 @@ const PretourSection: Component = () => {
             </h3>
             <div class="space-y-6 text-lg md:text-xl text-gray-700 leading-relaxed">
               <p>
-                Join us for an unforgettable adventure to the stunning{" "}
+                Departing from Keflavík early in the morning, we'll head towards
+                the beautiful landscapes of the{" "}
                 <span class="font-bold text-blue">Snæfellsnes Peninsula</span>.
               </p>
               <p>
@@ -69,6 +70,10 @@ const PretourSection: Component = () => {
                 <span class="font-bold text-blue">ATV adventure</span> to the
                 magnificent Snæfellsjökull glacier, the mystical ice cap that
                 has captivated explorers and storytellers for centuries.
+              </p>
+              <p class="italic text-gray-600">
+                *Accomodation is included, price is per person based on two
+                people per room.
               </p>
             </div>
 
