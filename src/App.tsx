@@ -5,7 +5,9 @@ import PretourSection from "./components/PretourSection";
 import ScheduleSection from "./components/ScheduleSection";
 import RegistrationSection from "./components/RegistrationSection";
 import FooterSection from "./components/FooterSection";
-import { Analytics } from "@vercel/analytics/next";
+import { inject } from "@vercel/analytics";
+
+inject();
 
 const App: Component = () => {
   return (
@@ -16,7 +18,6 @@ const App: Component = () => {
       <PretourSection />
       <RegistrationSection />
       <FooterSection />
-      <Analytics />
     </div>
   );
 };
