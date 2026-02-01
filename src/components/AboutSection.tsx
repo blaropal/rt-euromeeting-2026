@@ -1,4 +1,5 @@
 import type { Component } from "solid-js";
+import BergidImage from "../assets/Bergid.jpg";
 
 const AboutSection: Component = () => {
   const features = [
@@ -122,7 +123,7 @@ const AboutSection: Component = () => {
 
           <div class="relative rounded-lg overflow-hidden shadow-2xl">
             <img
-              src="/src/assets/Bergid.jpg"
+              src={BergidImage}
               alt="Icelandic landscape"
               class="w-full h-full object-cover"
             />

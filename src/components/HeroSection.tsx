@@ -1,4 +1,5 @@
 import type { Component } from "solid-js";
+import FlagImage from "../assets/Flag_min.png";
 
 const HeroSection: Component = () => {
   const scrollToSection = (id: string) => {
@@ -11,7 +12,7 @@ const HeroSection: Component = () => {
       id="hero"
       class="relative h-screen w-full flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat"
       style={{
-        "background-image": "url(/src/assets/Flag_min.png)",
+        "background-image": `url(${FlagImage})`,
       }}
     >
       <div class="absolute inset-0 bg-black/40" />

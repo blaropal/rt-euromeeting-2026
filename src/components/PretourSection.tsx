@@ -1,4 +1,8 @@
 import type { Component } from "solid-js";
+import SnaefellImage from "../assets/snaefell.jpg";
+import CaveImage from "../assets/cave.webp";
+import AtvImage from "../assets/atv.webp";
+import GlacierImage from "../assets/glacier.webp";
 
 const PretourSection: Component = () => {
   const activities = [
@@ -21,7 +25,7 @@ const PretourSection: Component = () => {
       id="pretour"
       class="relative min-h-screen py-10 md:py-40 px-6 bg-cover bg-center"
       style={{
-        "background-image": "url('/src/assets/snaefell.jpg')",
+        "background-image": `url(${SnaefellImage})`,
       }}
     >
       <div class="absolute inset-0 bg-gradient-to-br from-ink-black/75 via-blue/70 to-gray-slate/80"></div>
@@ -84,7 +88,7 @@ const PretourSection: Component = () => {
         <div class="grid md:grid-cols-3 gap-6">
           <div class="relative rounded-xl overflow-hidden shadow-2xl group">
             <img
-              src="/src/assets/cave.webp"
+              src={CaveImage}
               alt="Cave exploring in Vatnshellir"
               class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
             />
@@ -94,7 +98,7 @@ const PretourSection: Component = () => {
           </div>
           <div class="relative rounded-xl overflow-hidden shadow-2xl group">
             <img
-              src="/src/assets/atv.webp"
+              src={AtvImage}
               alt="ATV adventure to Snæfellsjökull"
               class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
             />
@@ -104,7 +108,7 @@ const PretourSection: Component = () => {
           </div>
           <div class="relative rounded-xl overflow-hidden shadow-2xl group">
             <img
-              src="/src/assets/glacier.webp"
+              src={GlacierImage}
               alt="Snæfellsjökull glacier"
               class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
             />
