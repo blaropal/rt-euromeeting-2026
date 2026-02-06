@@ -1,5 +1,6 @@
 import type { Component } from "solid-js";
-import HotelImage1 from "../assets/Nupan.jpg";
+import NupanImage from "../assets/Nupan.jpg";
+import KonvinImage from "../assets/konvin.webp";
 
 const AccommodationSection: Component = () => {
   return (
@@ -21,7 +22,6 @@ const AccommodationSection: Component = () => {
           anywhere in Reykjanesbær will work for the event.
         </p>
         <div class="grid gap-12">
-          {/* Hotel Option 1 */}
           <div class="bg-white rounded-2xl shadow-lg overflow-hidden border-2 border-olive-green">
             <div class="flex flex-col md:flex-row">
               <div class="md:w-[60%] p-8">
@@ -76,8 +76,59 @@ const AccommodationSection: Component = () => {
               </div>
               <div class="md:w-[40%] h-64 md:h-auto">
                 <img
-                  src={HotelImage1}
+                  src={NupanImage}
                   alt="Nupan Deluxe"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="bg-white rounded-2xl shadow-lg overflow-hidden border-2 border-olive-green">
+            <div class="flex flex-col md:flex-row">
+              <div class="md:w-[60%] p-8">
+                <div class="mb-6">
+                  <div class="inline-block bg-gold/20 border border-gold px-3 py-1 rounded-full mb-3">
+                    <span class="text-gold font-bold text-sm">
+                      SPECIAL RATE
+                    </span>
+                  </div>
+                  <h3
+                    class="text-3xl font-bold text-reddish-brown mb-2"
+                    style={{ "font-family": "var(--font-marcellus)" }}
+                  >
+                    Konvin
+                  </h3>
+                  <p class="text-gray-600 text-lg">
+                    Keilisbraut 762, 262 Reykjanesbær
+                  </p>
+                </div>
+                <div class="space-y-4 text-lg text-gray-700 mb-6">
+                  <p>
+                    A modern hotel located a bit outside of Reykjanesbær city
+                    center.
+                  </p>
+                </div>
+                <div>
+                  <p class="text-gray-700">
+                    To get a reduced rate book through the website and use the
+                    code{" "}
+                    <span class="font-semibold text-ink-black">konvin24</span>
+                  </p>
+                </div>
+                <hr class="my-6 border-t border-gray-200" />
+                <div>
+                  <a
+                    class="text-blue font-semibold hover:underline"
+                    href="https://www.konvin.is/"
+                  >
+                    Further information
+                  </a>
+                </div>
+              </div>
+              <div class="md:w-[40%] h-64 md:h-auto">
+                <img
+                  src={KonvinImage}
+                  alt="Konvin"
                   class="w-full h-full object-cover"
                 />
               </div>
