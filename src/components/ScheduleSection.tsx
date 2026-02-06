@@ -107,12 +107,12 @@ const ScheduleSection: Component = () => {
                   <img
                     src={BlueLagoonImage}
                     alt="Blue Lagoon"
-                    class="w-full h-40 object-cover rounded-lg"
+                    class="w-full h-50 object-cover rounded-lg"
                   />
                   <img
                     src={GrindavikImage}
                     alt="Grindavík"
-                    class="w-full h-40 object-cover rounded-lg"
+                    class="w-full h-50 object-cover rounded-lg"
                   />
                 </div>
                 <div class="flex flex-wrap gap-3">
@@ -230,12 +230,12 @@ const ScheduleSection: Component = () => {
                   <img
                     src={GunnuhverImage}
                     alt="Gunnuhver"
-                    class="w-full h-40 object-cover rounded-lg"
+                    class="w-full h-50 object-cover rounded-lg"
                   />
                   <img
                     src={VitiImage}
                     alt="Garðskagaviti"
-                    class="w-full h-40 object-cover rounded-lg"
+                    class="w-full h-50 object-cover object-[15%_30%] rounded-lg"
                   />
                 </div>
                 <div class="flex flex-wrap gap-3">
