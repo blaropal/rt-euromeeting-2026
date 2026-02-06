@@ -7,7 +7,7 @@ const RegistrationSection: Component = () => {
     script.src = "https://cdn.tickettailor.com/js/widgets/min/widget.js";
     script.setAttribute(
       "data-url",
-      "https://www.tickettailor.com/checkout/new-session/id/7521961/chk/64e6/?ref=website_widget&show_search_filter=true&show_date_filter=true&show_sort=true",
+      "https://tickets.euromeeting10.is/events/roundtable10iceland/2008116/select-date?ref=website_widget&show_search_filter=true&show_date_filter=true&show_sort=true",
     );
     script.setAttribute("data-type", "inline");
     script.setAttribute("data-inline-minimal", "true");
