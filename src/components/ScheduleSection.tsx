@@ -1,4 +1,8 @@
 import type { Component } from "solid-js";
+import BlueLagoonImage from "../assets/bluelagoon.webp";
+import GrindavikImage from "../assets/grindavik.jpg";
+import GunnuhverImage from "../assets/gunnuhver.jpg";
+import VitiImage from "../assets/gardskagaviti.jpg";
 
 const ScheduleSection: Component = () => {
   return (
@@ -99,6 +103,18 @@ const ScheduleSection: Component = () => {
                   by the recent volcanic activity in the region. Bring your
                   swimsuit!
                 </p>
+                <div class="grid md:grid-cols-2 gap-6 mb-6">
+                  <img
+                    src={BlueLagoonImage}
+                    alt="Blue Lagoon"
+                    class="w-full h-40 object-cover rounded-lg"
+                  />
+                  <img
+                    src={GrindavikImage}
+                    alt="Grindavík"
+                    class="w-full h-40 object-cover rounded-lg"
+                  />
+                </div>
                 <div class="flex flex-wrap gap-3">
                   <span class="inline-flex items-center gap-2 bg-olive-green/20 text-gray-slate px-4 py-2 rounded-full border border-olive-green/40">
                     <svg
@@ -210,6 +226,18 @@ const ScheduleSection: Component = () => {
                   Discover the most interesting landmarks of Reykjanes, from
                   dramatic coastlines to geothermal wonders.
                 </p>
+                <div class="grid md:grid-cols-2 gap-6 mb-6">
+                  <img
+                    src={GunnuhverImage}
+                    alt="Gunnuhver"
+                    class="w-full h-40 object-cover rounded-lg"
+                  />
+                  <img
+                    src={VitiImage}
+                    alt="Garðskagaviti"
+                    class="w-full h-40 object-cover rounded-lg"
+                  />
+                </div>
                 <div class="flex flex-wrap gap-3">
                   <span class="inline-flex items-center gap-2 bg-olive-green/20 text-gray-slate px-4 py-2 rounded-full border border-olive-green/40">
                     <svg
