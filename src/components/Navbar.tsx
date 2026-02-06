@@ -24,7 +24,7 @@ const Navbar: Component = () => {
   const navLinks = [
     { id: "about", label: "About" },
     { id: "schedule", label: "Schedule" },
-    { id: "pretour", label: "Pre-Tour" },
+    { id: "pretour", label: "PreTour" },
     { id: "registration", label: "Register" },
     { id: "accommodation", label: "Accommodation" },
     { id: "contact", label: "Contact" },
