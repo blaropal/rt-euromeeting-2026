@@ -96,7 +96,8 @@ const ScheduleSection: Component = () => {
                 <p class="text-gray-700 text-lg mb-3">
                   Experience the world-famous Blue Lagoon geothermal spa and
                   explore the town of Grindavík, which has been greatly affected
-                  by the recent volcanic activity in the region.
+                  by the recent volcanic activity in the region. Bring your
+                  swimsuit!
                 </p>
                 <div class="flex flex-wrap gap-3">
                   <span class="inline-flex items-center gap-2 bg-olive-green/20 text-gray-slate px-4 py-2 rounded-full border border-olive-green/40">
