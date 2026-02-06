@@ -122,6 +122,14 @@ const PretourSection: Component = () => {
             </div>
           </div>
         </div>
+        <div>
+          <p class="text-left text-white mt-12 italic">
+            *PreTour has limited availability. Book early to secure your spot on
+            this unforgettable adventure! If capacity is reached we will try to
+            make arrangements to increase it, but we cannot guarantee that will
+            be possible.
+          </p>
+        </div>
       </div>
     </section>
   );
